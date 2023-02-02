@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<title>Your Shopping Cart</title>
+<meta charset="utf-8" />
+<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+<meta http-equip="X-UA-compatible" content="ie=edge">
+<link rel="stylesheet" href="styleIndex.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="styleproduct.css">
+<link rel="icon" href="Resources\Images\Screenshot 2022-11-17 182243.png" type="image/png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--Title section-->
+    <div class="container1">
+        <div class="logo">
+          <img src="Resources\Images\Screenshot 2022-11-16 124926.png" alt="logo">
+        </div>
+        <div class="name">
+            <p>Rashu Boutique</p>
+        </div>
+        <div>  
+            <p style="color:white; font-size: 40px; justify-content: end;">Your fashion defines you</p>
+        </div>
+      </div>
+  
+     
+      <!--navbar-->
+      <div class="container-fluid">
+              
+        <nav class="nav">
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="myaccount.html">My account</a></li>
+            </ul>
+        </nav>
+    </div>
+  
+
+<div id="site">
+	<header id="masthead">
+		<h1></h1>
+	</header>
+	<div id="content">
+		<h1>Your Shopping Cart</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="index.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+
+<br>
+
+<footer style="background-color: aqua; padding:40px; margin-top: 50px; padding-left: 500px;">
+    Copyright &copy; 
+</footer>
+
+</body>
+</html>	

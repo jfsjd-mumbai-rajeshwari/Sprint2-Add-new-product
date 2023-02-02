@@ -206,14 +206,14 @@ nav ul li a:hover
 {
     padding: 20px 80px;
     margin-top: 50px;
-    justify-content: center;
-    margin-left: 360px;
+    
+    margin-left: 220px;
 }
 
 .bbtn button
 {
     padding: 20px 80px;
-    justify-items: center;
+    
     background-color: cadetblue;
 }
 
